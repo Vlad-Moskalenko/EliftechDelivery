@@ -2,7 +2,7 @@ const Order = require('../models/order');
 const { ctrlWrapper } = require('../helpers');
 
 const getClientOrders = async (req, res) => {
-  const { phone } = req.params;
+  const { phone } = req.query;
 
   const orders = await Order.find({ phone });
 
