@@ -1,5 +1,5 @@
 Команди:
 
-npm start — старт сервера в режимі production npm run
+npm start — старт сервера в режимі production 
 
-start:dev — старт сервера в режимі розробки (development)
+npm run start:dev — старт сервера в режимі розробки (development)
