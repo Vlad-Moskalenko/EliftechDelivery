@@ -3,8 +3,10 @@ const Joi = require('joi');
 
 const { handleMongooseError } = require('../helpers');
 
+/*eslint-disable*/
 const emailRegexp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 const phoneRegexp = /^\+?(\d{1,3})?[ -]?\(?\d{1,3}\)?[ -]?\d{1,4}[ -]?\d{1,4}[ -]?\d{1,9}$/;
+/*eslint-disable*/
 
 const orderSchema = new Schema(
   {
