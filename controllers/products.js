@@ -1,4 +1,5 @@
 const Product = require('../models/product');
+
 const { httpError, ctrlWrapper } = require('../helpers');
 
 const getProducts = async (req, res) => {

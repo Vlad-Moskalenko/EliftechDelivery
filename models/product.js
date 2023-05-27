@@ -11,23 +11,9 @@ const productSchema = new Schema(
       type: String,
       required: true,
     },
-    descr: {
-      type: String,
-      default: 'Lorem ipsum dolor sit am',
-    },
-    rating: {
-      type: Number,
-      default: 0,
-    },
     price: {
       type: Number,
       required: true,
-    },
-    location: {
-      city: {
-        type: String,
-        required: true,
-      },
     },
     market: {
       type: String,
